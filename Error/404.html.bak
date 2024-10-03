@@ -1,0 +1,60 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+	<title>𝓕𝓷𝓱</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="../images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+
+	<link rel="stylesheet" type="text/css" href="../css/404.css">
+
+</head>
+<body>
+
+<div class="maincontainer">
+  <div class="bat">
+    <img class="wing leftwing" 
+         src="https://aimieclouse.com/Media/Portfolio/Error403Forbidden/bat-wing.png">
+    <img class="body"
+         src="https://aimieclouse.com/Media/Portfolio/Error403Forbidden/bat-body.png" alt="bat">
+    <img class="wing rightwing"
+         src="https://aimieclouse.com/Media/Portfolio/Error403Forbidden/bat-wing.png">
+  </div>
+  <div class="bat">
+    <img class="wing leftwing" 
+         src="https://aimieclouse.com/Media/Portfolio/Error403Forbidden/bat-wing.png">
+    <img class="body"
+         src="https://aimieclouse.com/Media/Portfolio/Error403Forbidden/bat-body.png" alt="bat">
+    <img class="wing rightwing"
+         src="https://aimieclouse.com/Media/Portfolio/Error403Forbidden/bat-wing.png">
+  </div>
+  <div class="bat">
+    <img class="wing leftwing" 
+         src="https://aimieclouse.com/Media/Portfolio/Error403Forbidden/bat-wing.png">
+    <img class="body"
+         src="https://aimieclouse.com/Media/Portfolio/Error403Forbidden/bat-body.png" alt="bat">
+    <img class="wing rightwing"
+         src="https://aimieclouse.com/Media/Portfolio/Error403Forbidden/bat-wing.png">
+  </div>
+  <img class="foregroundimg" src="https://aimieclouse.com/Media/Portfolio/Error403Forbidden/HauntedHouseForeground.png" alt="haunted house">
+  
+</div>
+<h1 class="errorcode">Page Not Found</h1>
+<div class="errortext">We're sorry, the page you were looking for isn't found here. The link you followed may either be broken or no longer exists. Please try again, or take a look at our.</div>
+
+
+
+		
+
+
+</body>
+</html>
+
+
+
+

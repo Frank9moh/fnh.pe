@@ -1,0 +1,93 @@
+body {
+    font-family: 'Amiri', serif;
+    background-color: #333; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw; /* Full viewport width */
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #444; /* Darker container background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjusted shadow */
+    max-width: 800px;
+    text-align: right;
+    direction: rtl;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #ffcc80; /* Accent color */
+    text-align: center;
+    font-size: 2rem;
+}
+
+.dhikr {
+    margin-bottom: 20px;
+}
+
+.dhikr p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #f0f0f0; /* Light text color */
+    word-wrap: break-word;
+}
+
+.dhikr .virtue {
+    color: #80cbc4; /* Accent color */
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+pre {
+    background-color: #555; /* Darker code block background */
+    color: #f0f0f0; /* Light text color */
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .dhikr p {
+        font-size: 1rem;
+    }
+    .dhikr .virtue {
+        font-size: 0.9rem;
+    }
+}
+
+.footer {
+    text-align: center;
+    color: #ccc; /* Lighter text color */
+    font-size: 1.4rem;
+    background-color: #444; /* Darker footer background */
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjusted shadow */
+    animation: float 3s ease-in-out infinite;
+    width: 50%;
+    max-width: 800px;
+    margin-top: auto;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

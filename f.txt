@@ -1,0 +1,14 @@
+<!-- تضمين SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    // دالة لعرض الإشعار عند فتح الصفحة
+    window.onload = function() {
+        Swal.fire({
+            title: 'تنبيه!',
+            html: 'كلمة المرور خاطئة. للحصول عليها <a href="https://api.whatsapp.com/send/?phone=201017923543&text=Excuse+me+Abdullah++I+wanna+your+website+%27s+password+%2C+please&type=phone_number&app_absent=0" style="color: blue; font-size: large; font-weight: bold;">اضغط هنا</a>.',
+            icon: 'error',
+            confirmButtonText: 'حسنًا'
+        });
+    };
+</script>

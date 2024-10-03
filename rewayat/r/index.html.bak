@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عرض قائمة الملفات النصية</title>
+     <style>
+  body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #204969;
+    color: white;
+    text-align: center;
+    direction: rtl;
+}
+
+.hidden {
+    display: none;
+}
+
+.frame {
+    background-color: #444;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.banner {
+    font-size: 24px;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.file-list button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.text-browser {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    max-height: 90%;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+
+.page-info {
+    background-color: #999;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.button-frame {
+    margin: 10px 0;
+}
+
+.nav-button {
+    background-color: turquoise;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.back-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+  </style> 
+</head>
+<body>
+    <div id="app">
+        <div class="frame">
+            <div class="banner">الروايات</div>
+            <div id="file-list" class="file-list"></div>
+        </div>
+    </div>
+
+    <div id="file-content" class="hidden">
+        <div class="frame">
+            <div class="banner" id="file-title"></div>
+            <div id="text-browser" class="text-browser"></div>
+            <div id="page-info" class="page-info">الصفحة: 1/1</div>
+            <div class="button-frame">
+                <button id="prev-button" class="nav-button">الصفحة السابقة</button>
+                <button id="next-button" class="nav-button">الصفحة التالية</button>
+            </div>
+            <button id="back-button" class="back-button">العودة إلى القائمة</button>
+        </div>
+    </div>
+
+    <script>
+  const colors = ["green", "red", "blue", "violet", "yellow", "brown", "pink", "turquoise"];
+let pages = [];
+let currentPage = 0;
+
+document.addEventListener('DOMContentLoaded', () => {
+    const fileList = ["رواية حافية على اشواك من ذهب جميع الفصول كاملة.txt"]; // أضف أسماء الملفات النصية هنا
+    const fileListContainer = document.getElementById('file-list');
+
+    fileList.forEach(file => {
+        const button = document.createElement('button');
+        button.textContent = file.replace('.txt', '');
+        button.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        button.addEventListener('click', () => showFileContent(file));
+        fileListContainer.appendChild(button);
+    });
+
+    document.getElementById('next-button').addEventListener('click', showNextPage);
+    document.getElementById('prev-button').addEventListener('click', showPrevPage);
+    document.getElementById('back-button').addEventListener('click', showFileList);
+});
+
+function showFileContent(filename) {
+    document.getElementById('app').classList.add('hidden');
+    document.getElementById('file-content').classList.remove('hidden');
+
+    document.getElementById('file-title').textContent = `رواية : ${filename.replace('.txt', '')}`;
+
+    fetch(filename)
+        .then(response => response.text())
+        .then(content => {
+            let lines = content.split('\n');
+            pages = [];
+            for (let i = 0; i < lines.length; i += 500000000) {
+                pages.push(lines.slice(i, i + 50).join('\n'));
+            }
+
+            currentPage = 0;
+            updatePage();
+        });
+}
+
+function updatePage() {
+    document.getElementById('text-browser').textContent = pages[currentPage];
+    document.getElementById('page-info').textContent = `الصفحة: ${currentPage + 1}/${pages.length}`;
+}
+
+function showNextPage() {
+    if (currentPage < pages.length - 1) {
+        currentPage++;
+        updatePage();
+    }
+}
+
+function showPrevPage() {
+    if (currentPage > 0) {
+        currentPage--;
+        updatePage();
+    }
+}
+
+function showFileList() {
+    document.getElementById('file-content').classList.add('hidden');
+    document.getElementById('app').classList.remove('hidden');
+}
+  </script>
+</body>
+</html>

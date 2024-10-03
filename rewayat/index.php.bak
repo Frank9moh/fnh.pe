@@ -1,0 +1,39 @@
+<?php
+// URL من حيث سيتم جمع البيانات
+$url = 'https://www.scarehome.com/search/label/%D8%B1%D9%88%D8%A7%D9%8A%D8%A7%D8%AA%20%D8%B4%D9%8A%D9%82%D9%87?m=1';
+
+// استخدام cURL لجلب محتوى الصفحة
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+$response = curl_exec($ch);
+curl_close($ch);
+
+// تحليل المحتوى باستخدام DOMDocument
+$dom = new DOMDocument();
+libxml_use_internal_errors(true);
+$dom->loadHTML($response);
+libxml_clear_errors();
+
+$xpath = new DOMXPath($dom);
+
+// جمع بيانات الروايات
+$novels = [];
+$nodes = $xpath->query('//h3/a'); // تعديل بناءً على بنية HTML للموقع
+
+foreach ($nodes as $node) {
+    $novelTitle = trim($node->textContent);
+    $novelUrl = $node->getAttribute('href');
+
+    $novels[] = [
+        'title' => $novelTitle,
+        'url' => $novelUrl
+    ];
+}
+
+// حفظ البيانات في ملف JSON
+file_put_contents('novels.json', json_encode($novels, JSON_PRETTY_PRINT));
+
+echo "Data successfully saved to novels.json";
+?>

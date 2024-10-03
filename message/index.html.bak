@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OneSignal Web Push Example</title>
+<!-- تضمين مكتبة OneSignal -->
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  // تكوين OneSignal
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "YOUR_ONESIGNAL_APP_ID", // استبدل بمفتاح التطبيق الخاص بك
+    });
+  });
+
+  // طلب الإذن للإشعارات عند فتح الموقع
+  window.onload = function() {
+    OneSignal.push(function() {
+      OneSignal.showNativePrompt();
+    });
+  }
+</script>
+</head>
+<body>
+  <h1>OneSignal Web Push Example</h1>
+</body>
+</html>

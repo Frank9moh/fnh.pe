@@ -1,0 +1,360 @@
+On parle du week-end. !On parle des vacances.!On parle des jours de congé.!!2
+On demande un lieu.!On demande l’heure.!On demande la date.!!1
+ On parle d’une promenade.!On parle d’un jardin.! On parle d’une fête déguisée.!!3
+On parle de la plongée.!On parle du tennis.! On parle du VTT.!!1
+On parle d’une tâche ménagère.!On parle d’un sport.! On parle d’une activité musicale.!!1
+ On parle de mon goût.! On parle de son goût.! On parle de l’âge de ma sœur.!!2
+J’ai regardé le match.! Que vas-tu faire ?! Quelle activité tu as faite ?!!3
+Je viens de regarder le match.! Que vas-tu faire ?! Quelle activité tu viens de faire ?!!1
+ Je vais aller à la campagne.! Qu’as-tu fait pendant les vacances ?! Je suis allé à la campagne.!!3
+Je vais aller à la campagne.! Que vas-tu faire pendant les vacances ?! Je suis allé à la campagne.!!1
+ C’est une bonne idée.!Pourquoi pas ?!Ça te dit de regarder le match ?!!3
+ J’ai acheté des pâtes.! Je vais faire mes devoirs.! Allez au magasin de fruits et légumes.!!1
+Mangeons des croissants.! Allons au lycée.! Ça te dit de boire de l’eau gazeuse froide ?!!3
+ Pourquoi tu vas au supermarché ?! Pour acheter des vêtements.! Pour faire des courses.!!3
+Le chat est plus gros que le chien.! Le chat est plus intelligent que le chien.! Le chat est aussi gros que le chien.!!2
+ Qui ! Quel ! Pourquoi!!3
+du ! de la! la!!2
+ passe ! va passer ! est passé !!3
+ jamais ! rien ! plus !!3
+ rentrée ! rentré ! rentrés !!3
+ la ! te ! leur!!2
+personne ! rien ! pas!!1
+personne ! rien ! pas  !!3
+ont ! sont ! vont !!3
+ont ! sont ! vont !!2
+va ! est ! a !!3
+va ! est !a!!2
+achetés ! achetées ! acheté!!2
+allé ! allés ! allée!!2
+suis ! vais ! me suis!!3
+personne ! plus ! rien!!3
+est sorti ! sort ! sortir!!3
+ Quand ! Qu’est-ce que ! Qui !!2
+arrivé ! arrivée ! arrivés !!1
+mange ! manges ! manger!!2
+ faire ! fait ! a fait!!1
+ leur ! en ! les !!3
+amusée ! amusé ! amuser!!1
+personne ! plus -! rien!!3
+ personne ! plus ! rien !!1
+personne ! plus ! rien!!2
+avez ! êtes ! allez !!2
+ avez ! êtes ! allez!!1
+avez ! êtes ! allez!!3
+allé ! allée ! allés !!2
+allé ! allée ! allés!!1
+allé ! allée ! allés !!3
+allé ! allées ! allés !!2
+vas ! as ! es !!2
+ parti ! partie ! partis !!2
+sorti ! sortie ! sortis!!1
+entraîné ! entraînée ! entraînés !!2
+ont ! sont ! se sont!!3
+a ! est ! s’est!!3
+personne ! plus ! rien!!3
+personne ! jamais ! rien !!2
+ en ! les ! leur!!2
+en ! la ! lui!!1
+en ! le ! lui!!3
+plus que ! plus de ! plus !!1
+achetés ! achetées ! acheté!!1
+va ! est ! a !!3
+ des ! du ! de!!3
+ joli ! jolie ! jolis !!1
+du ! de ! de la!!2
+personne ! rien ! plus!!2
+personne ! rien ! plus !!1
+ les ! leur ! en !!2
+du ! de la ! la!!1
+du ! au ! le!!1
+va ! vas ! allez !!1
+froids ! froides ! froid !!3
+froids ! froide ! froid!!3
+il y a! dans ! depuis!!1
+ il y a ! dans ! depuis!!2
+va ! est ! a!!3
+faits ! faites ! fait !!3
+né ! née ! nés !!2
+des ! du ! de!!3
+essayé ! essayée ! essayés!!2
+réponds ! répond ! répondez!!3
+Ce ! Cet ! Cette!!2
+prends ! prend ! prenez !!1
+allons ! faisons ! avons !!3
+ on ! il ! elle!!3
+allés ! allé ! allées!!1
+ a ! vient de ! est !!3
+la ! lui ! en!!2
+ Quelles ! Quel ! Quels !!3
+mon ! ma ! mes!!2
+achète ! achètes ! achètent !!2
+avons ! sommes ! nous sommes!!3
+plus ! rien ! personne!!1
+plus ! rien ! pas!!2
+plus ! rien ! pas!!1
+ avez ! êtes ! allez!!2
+bleues ! noir ! bleu-gris !!3
+en ! au ! à !!3
+de ! de la ! du!!1
+de ! de la ! du!!2
+de ! de la ! du!!1
+ Quelles ! Quels ! Quel !!2
+moins que ! moins de ! moins!!1
+au ! chez ! à la !!3
+des ! une ! de !!3
+au ! le ! du!!3
+ fait ! fais ! font!!2
+passé ! passée ! passés !!2
+de ! du ! de la!!1
+ en ! au ! à!!3
+de ! de la ! du!!3
+sommes ! es ! est !!3
+va finir ! vient de finir ! a fini !!1
+achetés ! achetées ! acheté!!1
+es allée ! est allée ! est allé!!2
+ Quelle est la nationalité de ton père ? ! Que fait ton père ?! Quel âge a ton père ?!!2
+ J’ai mis les photos sur mon blog. ! J’ai fait des déguisements pour les enfants.! La fête a été géniale.!!1
+ Tu as fait quoi pendant l’été dernier ? ! Je suis allé à la mer.! En été, le soleil brille.!!2
+ Je monte à cheval.! Je fais du ski.! Je vais au cinéma avec mes copains.!!1
+Je vais mettre un anorak et des bottes. ! Une chemise à manches courtes. !Je vais à la montagne en été.!!1
+Tu as quel âge ?! Tu es né quand ? ! Je suis né le 10 mars.!!3
+Tu vas où ? ! Ça te dit de sortir ?! J'ai faim.!!2
+Entraine-toi bien.! J'ai une course au stade.! Quand la course commence ?!!1
+Quel sport tu préfères?! Le tennis est mon sport préféré.! La natation, c'est ma passion.!!1
+Je porte un maillot de bain. ! Je porte un kimono.! Je porte un tutu.!!1
+Ça ne me dit rien.! Quel est ton sport préféré ?! Tu préfères les sports classiques ou extrêmes ?!!1
+ Il faut un ballon.! II faut un volant.! II faut une balle.!!1
+ Je voudrais du poisson s.v.p.! Ça te dit un jus d’orange ?! Un diabolo menthe s.v.p.!!3
+Qu’en penses-tu ?! Je mets un survêtement de sport.! Il me faut un casque et un vélo.!!2
+ J'aide ma mère à la cuisine.! Comment faire du couchari ?! Il y a des légumes et des fruits dans le frigo.!!2
+Ça coûte 5 L.E ! Oui, j'en veux deux.! Tu mets combien d'œufs dans le gâteau ?!!2
+Comment tu trouves le tennis ?! L'escalade, qu'est-ce que tu en penses ?! Quel est ton avis sur les sports classiques ?!!2
+Je dois porter des baskets.! Je dois porter des patins.! Je dois porter des pointes!!3
+II met la stratégie de jeu.! Cet entraîneur est excellent.! Qu'est-ce que l'entraîneur fait ?!!3
+Quelle langue tu parles ?! Quel sport il fait ?! Tu fais quel sport ?!!3
+Il est à 15h! A quelle heure commence le match ?! Je vais au stade à 14h.!!2
+ Prends trop de gâteaux ! Mange un peu de tout ! Bois des sodas !!2
+Buvez des boissons gazeuses ! Mangez des pâtes ! Mangez des fruits frais !!3
+Où tu passes tes vacances ?! Je les passe à la campagne.! Je passe les vacances avec ma famille.!!2
+Je vais au lycée.! Je vais au cinéma.! Que fais-tu le soir ?!!2
+Des tables et des chaises.! Un CDI.! Un terrain de sport.!!1
+Où se trouve le rayon des produits laitiers ?! Où se trouve le rayon des produits de la mer ?! Où se trouve le rayon des produits sucrés ?!!2
+Quel est ton parfum préféré ?! Je préfère les jus frais.! J'aime la glace au chocolat.!!2
+Je voudrais de l'eau.! Je voudrais de l'huile.! Je voudrais une baguette.!!1
+Tu es de quelle origine ?! Où est-ce que tu habites ?! Comment trouves-tu cette maison ?!!2
+Comment tu t'appelles ?! Je m'appelle Sami.! Comment il s'appelle ?!!1
+J'aime le français.! J'adore le chocolat.! Je joue au basketball.!!3
+Sur le terrain! Sur la mer! À la montagne!!3
+ Il est roux.! Il aime le sport.! Il déteste les maths.!!1
+Mon oncle vit à la campagne.! Très bonne idée.! La campane, c'est nul !!2
+C'est une fête géniale. ! Le 31 décembre, c'est la fête du nouvel an.! Je me suis déguisé en pilote.!!3
+Maman, je veux boire. ! Maman, je veux dormir.! Maman, je veux manger.!!2
+Je prends mon déjeuner au restaurant. ! Je préfère manger avec mes amis.! J’aime manger du riz avec du poulet.!!3
+Le deltaplane est trop violent.! Je fais des sports nautiques.! Le tennis est un sport classique.!!1
+Pour faire de la boxe.! Pour faire du football.! Pour faire du judo.!!2
+ Ouais ... Très bonne idée. ! Je suis occupé.! Bof ... Je ne peux pas venir.!!1
+ Le lundi, j’ai un cours d'EPS. ! Je m'ennuie en EPS au lycée.! Au cours d’EPS, je porte une tenue de sport.!!2
+Le badminton n’est pas un sport dangereux. ! Le karaté, c'est trop violent.! Quel est ton sport extrême préféré ?!!2
+C'est un sport classique. ! C'est un sport dangereux.! C'est un sport collectif.!!2
+Enchanté.! Merci.! Au revoir!!1
+La lutte est un sport violent. ! Qu'est-ce que tu penses de la lutte?! J'aime les sports extrêmes!!2
+ Il est sympa.! Comment est ton entraîneur ?! Il a les cheveux roux.!!1
+Vous voulez des pépites de chocolat ?! Je l’aime à la fraise et au chocolat.! Je préfère cette boisson.!!2
+ Combien je vous dois pour ce repas ? ! Le menu S.V.P.! Quel est le prix de ce pantalon ?!!1
+ Je vais diner avec mon ami. ! Je vais diner seul.! Tu vas regarder un film au ciné ?!!1
+Quelle est la nationalité de votre père ? ! Il est professeur.! Que fait ton père ?!!3
+Quels sont les ingrédients du gâteau ? ! Le gâteau est délicieux.! Je veux goûter ton gâteau?!!1
+Une boule d'ananas, ça fait combien ? ! Une boule fait 5 euros.! On a beaucoup de parfums.!!2
+ ramasses! ramasser! ramasse!!3
+ pas! rien ! personne !!1
+le ! du ! au!!2
+aux ! à la ! au!!1
+ le ! la ! l' !!3
+ répondez ! répondent ! réponds!!1
+un ! une ! des !!2
+assez ! bien ! très !!2
+ jamais ! rien ! encore!!1
+toi ! se ! te!!3
+ en ! chez ! à !!2
+je ! te ! moi !!3
+Oui ! Si ! Non !!3
+leur! lui ! les !!3
+ prendre ! prend ! prends !!1
+à ! en  ! dans  !!2
+va ! vont ! vais  !!1
+Où ! Pourquoi  ! Qui  !!2
+Vous ! Il  ! Nous !!1
+le ! la ! les !!2
+Eux ! Lui ! Nous !!3
+au ! à ! aux  !!3
+avez ! êtes  ! allez !!1
+rien ! personne  ! quelqu’un  !!2
+ à  ! au ! en !!2
+ attend  ! attends ! attendez !!2
+ en  ! à ! au !!1
+de  ! de la  ! des !!2
+ t' ! m' ! l' !!2
+ Ce ! Cette ! Ces !!1
+plus ! moins  ! aussi !!1
+ en ! l'  ! lui !!1
+ beaucoup ! beaucoup de ! un peu !!2
+ la ! lui ! le  !!2
+beaucoup ! très ! bien !!1
+ du ! de la ! des !!1
+achète ! achetez  ! acheter !!3
+veux ! manges ! peut !!1
+sois ! soyons ! Soyez !!3
+ personne ! jamais ! rien !!2
+Si  ! Oui ! Non !!1
+ collectif ! collectifs ! collectives !!2
+ grand ! petite ! petit !!2
+égyptien ! français ! belge !!3
+froid ! froides ! froids !!1
+Le ! La ! Les !!1
+ Si! Oui ! Non !!3
+ont décoré ! avons décoré ! a décoré !!2
+Hier ! Maintenant ! Demain !!1
+au ! à la ! aux !!1
+français ! française ! françaises !!1
+ Mon ! Ma ! Mes !!2
+ le ! la ! l' !!3
+va ! vient ! est !!2
+ au ! en ! à !!2
+son ! sa ! leur !!3
+ Je ! On ! Nous !!2
+ le ! en ! y !!3
+ te ! toi ! tu !!2
+ Si ! Non ! Oui !!1
+ Si ! Non ! Oui !!3
+manger ! boire ! préférer !!2
+ sait ! savent ! savons !!1
+ à ! au ! en !!2
+ du ! de la ! de !!1
+Ton ! Ta ! Tes !!1
+ en ! y ! l’ !!2
+ le ! y ! les !!1
+génial ! géniale ! géniales !!2
+ me ! moi ! je !!1
+ le ! la ! lui !!1
+ le ! la ! lui !!3
+ le ! la ! lui !!2
+les ! elles ! ils !!2
+ vas choisir !choisis  ! as choisi !!3
+ Écrivez ! Écris ! Écrivons !!2
+ de la ! du ! au!!2
+piscine ! piste ! stade !!3
+ a ! est ! ai !!2
+pars ! vais partir ! viens de partir !!2
+ en ! lui ! l' !!3
+ de la ! du !  de !!1
+ du ! de la ! de !!2
+ les ! y ! en !!1
+très ! bien ! trop de !!1
+ de la ! du ! des !!2
+ tout ! toute  ! tous !!1
+ italien ! anglaise ! égyptiens !!3
+en ! lui ! y !!3
+ le ! en ! les !!2
+ Demain ! Hier ! Aujourd'hui !!2
+ délicieux ! délicieuse ! délicieuses !!2
+ premier ! première ! dernière !!1
+ le ! la !les !!2
+ beaucoup ! autant ! très !!3
+ autant de ! beaucoup ! très !!3
+ le ! la ! les !!3
+ du ! de la ! des !!3
+son ! sa ! ses !!1
+ visite !visitent ! visitons !!3
+Pour faire du ski. ! Pour faire du basket.! Pour faire du football.!!2
+avant le petit-déjeuner.! après le dîner.! entre le déjeuner et le dîner.!!3
+Est-ce qu'il y a un supermarché près d'ici, s'il vous plaît ? ! Où est le rayon " viandes", s'il vous plaît ?! Un poulet, ça fait combien ?!!2
+Mon plat préféré est le poulet rôti. ! Quels sont les ingrédients du couchari ?! Il faut mettre du sucre, de la farine et un peu de poudre de pomme.!!3
+C'est le pain et les pâtes.! Ce sont les légumes.! J'adore les produits céréaliers.!!1
+Avec plaisir.! Peux-tu aller avec moi au supermarché ?! Désolé, je suis fatigué.!!2
+Je voudrais trois baguettes. ! Les baguettes coûtent 3 Euros.! Au rayon " Pains ".!!3
+Je prends une boisson. ! J'aime les croissants. ! Le petit déjeuner est prêt.!!2
+Je mets de l'huile et du sel. ! Comment faire de la salade?! Je déteste la salade.!!1
+ Il est quelle heure ? ! Je suis en retard.! Il est midi.!!1
+ Mange un peu de tout. ! Il faut dormir 4 heures.! Ne te lève pas tôt.!!1
+C’est un produit sucré. ! C’est un produit laitier.! C’est un produit céréalier.!!3
+Quel temps fait-il à la campagne ?! Il fait frais.! Oh là là  La campagne, c’est l’horreur !!2
+ J’ai soif.! Pourquoi tu es content ?! Je suis de mauvaise humeur.!!3
+ Quelle est ta tâche à la fête? ! Je vais installer la musique.! C’est un concert improvisé.!!1
+ à la poste ! au club ! en classe!!2
+j’ai soif. ! j’ai peur.! j’ai faim.!!3
+Tu aimes les sciences? ! J'ai 17 ans.! J'aime dessiner.!!3
+J’aime la campagne et la forêt. ! Quels éléments de la nature tu aimes ?! J'adore les musées et les parcs.!!1
+On va arriver en retard. ! Prends le métro.! Je monte dans le train.!!2
+Je peux garder ce livre ? ! Ce livre, c’est combien?! Ce livre est intéressant.!!2
+ Ma mère travaille dans sa chambre. ! La chambre de ma mère est grande.! Voilà la chambre de ma mère.!!2
+J'en veux deux. ! Ça coûte 15 L.E.! Je veux une boule.!!1
+J'adore le tennis. ! J'ai soif.! Je bois du soda.!!2
+Je dine à 23 heures.! Je prends des yaourts.! Je dine avec mon frère!!1
+C'est un légume ! C'est une fourniture scolaire.! C'est une boisson.!!3
+Je voudrais deux kilos de carottes. ! Je voudrais deux kilos de viande.! Je voudrais un litre de lait.!!1
+ Avec plaisir, c'est une bonne idée. ! Ça te dit d'aller au supermarché?! Où se trouve le supermarché?!!2
+Ma mère ne sait pas faire la cuisine. ! Ma mère a bien cuisiné.! Ma mère n'aime pas cuisiner.!!2
+Je voudrais essayer ce modèle, s'il vous plaît. ! Désolé, on n'a plus de fruits.! Donnez-moi du saucisson, s'il vous plaît.!!3
+Trois baguettes, c'est combien ? ! Très bien, voilà ! Vous avez du pain ?!!1
+Qu’est-ce que tu sais faire ? ! Tu sais monter à cheval ?! Je sais jouer du violon.!!3
+J'aime regarder les matchs.! la télévision, c'est ma passion.! Il y a beaucoup de films à la télévision.!!2
+ Des légumes.! Des raisins.! Des fraises.!!2
+Les joueurs ont bien joué.! L'arbitre a mal arbitré.! L'entraineur a choisi une stratégie nulle.!!1
+Tu ne viens pas avec moi à l'aéroport ? ! On va à la patinoire?! Je t'invite à la fête de mon anniversaire.!!2
+ La natation, c'est mon sport préféré. ! J'aime faire de l'équitation.! Je ne sais ni nager ni plonger.!!1
+ Bien sûr, c’est une bonne idée ! Je regrette, désolée je suis fatiguée.! D’accord, je vais venir.!!2
+Il fait chaud. ! J'ai froid.! Quel temps fait-il ?!!3
+ Parce que je suis malade. ! Pourquoi vous vous absentez du lycée ?! Parce que j’ai de bonnes notes.!!1
+ parce qu'il y a des moustiques dehors. ! parce qu'il fait chaud.! parce que j'ai soif.!!1
+Parce que je suis fatigué. ! Parce que j’ai faim.! Parce que j’ai soif.!!1
+J'ai passé deux semaines dans le village ! Tu vas passer combien de jours à la campagne ?! Tu aimes aller à la campagne en vacances ?!!2
+Le week-end, je vais aller au cinéma.! Je vais à l’école pendant le week-end.! Le week-end, c'est le vendredi et le samedi.!!1
+Je suis médecin.! Qu’est-ce que tu veux devenir ?! Je veux être médecin.!!3
+ Quel moyen de transport préférez-vous ? ! Moi, je me déplace en bus ou à vélo.! Je participe à une course à moto.!!2
+Je regarde beaucoup la télévision.! Je n’aime pas faire les tâches ménagères.! Je fais les courses à sa place.!!3
+Qu’en pensez-vous ?! C’est moche.! Tu vas faire des courses ?!!1
+Deux kilos d’oranges.! Une bouteille de l’eau minérale.! Un gâteau au chocolat.!!3
+ Entrainez-vous bien.! Le football est un sport.! Vous êtes joueurs.!!1
+Joyeux anniversaire.! Bonne réussite.! Bonne nouvelle année.!!1
+Ce joueur est dynamique et doué.! A mon avis, je le trouve super.! Pour le match, qu'est-ce que tu en penses?!!2
+J'aime mon lycée.! Voilà mon lycée.! Il est grand et il y a un CDI.!!3
+Aimes-tu faire du sport?! Il faut manger beaucoup de gâteaux.! Il faut faire du sport.!!3
+Je vais mettre des fleurs.! Je vais mettre des posters.! Je vais mettre des raquettes.!!1
+Ta passion, c'est quoi?! J'aime la nature.! Je ne sais pas cuisiner.!!2
+Tu dois aller à la station. ! Tu dois aller à la gare.! Tu dois aller à l’arrêt.!!1
+J’ai de la fièvre.! Quel est votre problème?! J’ai mal aux oreilles.!!2
+ Je fais des gâteaux et des quiches.! Qu'est-ce que vous allez faire pour la fête?! Je fais une fête déguisée.!!1
+Dans une écurie.! Dans un poulailler.! Dans une bergerie.!!2
+ Pour faire de la natation.! Pour faire les devoirs.! Pour faire du ski.!!3
+quand il pleut.! quand il fait beau.! quand il neige.!!2
+Pour acheter un poulet.! Pour acheter une glace à l'ananas.! Pour acheter un sandwich.!!2
+Je me suis levé en retard.! Je suis en bonne santé.! Je suis allé au lycée avec mon frère.!!1
+Que voulez-vous boire?! Il y a du café, du thé et du jus de fruits.! Ma boisson préférée, c'est le soda.!!2
+ Quelles boissons demandez-vous?! Quelles fleures préférez-vous?! Quel parfum voulez-vous?!!3
+Lave-toi les mains.! Il faut bien réviser les leçons.! Passe le temps devant la télé.!!2
+e vais au stade. ! Je vais au centre commercial.! Je vais au magasin de vêtements.!!2
+La campagne est très bruyante et il y a des moustiques. ! A la campagne, il y a trop de pollution.! La campagne est un lieu calme et fantastique.!!3
+Le temps est ensoleillé.! Il neige.! Il fait doux.!!2
+Parce qu'il n'y a pas de cinés.! Parce qu'il y a des moustiques.! Parce qu'on trouve tout ce qu'on veut.!!3
+Il faut une selle.! Il faut une palette de peinture.! Il faut des ustensiles de cuisine.!!2
+Comment vous trouvez la soirée d'hier?! La soirée a été géniale.! J'ai passé la soirée avec mes amis.!!1
+Quelle est votre saison préférée?! En automne, il y a du vent.! Le printemps, c'est ma saison préférée.!!3
+Bien sûr, le chien car il est domestique et fidèle.! Le cheval est le mâle de la jument.! Je donne à manger aux animaux.!!1
+Tu prends combien de repas dans la journée?!Je prends trois repas dans la journée.! J'aime prendre les repas avec ma famille.!!1
+Je vais visiter les Pyramides.! Je vais au lycée chaque jour.! Je suis allé à la plage.!!3
+Quelle heure est-il maintenant ?! Quel temps fait-il aujourd'hui ?! Que fait-il aujourd'hui ?!!2
+ J'ai passé les vacances chez mes grands parents ! Les vacances, c'est en été.! Que faites-vous pendant les vacances?!!1
+Pour acheter des croissants.! Pour acheter des livres.! Pour faire du sport.!!2
+Quel jour sommes-nous ?! Il fait le devoir.! Il fait chaud.!!3
+Je fais du sport.! Je n'aime pas le chocolat.! Je vais à l'école.!!1
+Il est pharmacien.! Il est libanais.! Il est gentil.!!2
+ Elle est intelligente.! Elle est blonde.! Elle se compose de cinq pièces.!!3
+Il est grand et mince.! Il est dentiste.! Il est égyptien.!!2
+ De quelle origine tu es ?! Quand tu es né ?! Tu es né où ?!!2
+Je suis satisfait.! Je suis de mauvaise humeur.! Je suis endormi!!2
+Est-ce que tu peux m'aider?! Est-ce que je peux t'aider?! J'aime aider ma sœur.!!1
+Que fait ton père ?! Il est médecin.! Il est sociable.!!2
+Va à la campagne.! Va dans la ferme.! Va à la montagne.!!3
+ La poule vit dans le poulailler.! La poule nous donne quoi ?! La poule nous donne des œufs.!!3
+Je ne peux pas écouter.! Je vais aller chez le dentiste.! Je ne peux pas voir.!!3

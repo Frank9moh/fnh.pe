@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Ayah</title>
+</head>
+<body>
+    <img id="back" src="./icon/tfs.png">
+    <br><br><br>
+    <div id="ayah">
+        <img src="./icon/ayah.png" id="ayah_img">
+        <p id="ayah_text">Loading...</p>
+        <div id="ayah_fot">
+            <p id="sura_text"></p>
+        </div>
+    </div>
+    <div id="footer">
+        <img id="right" src="./icon/logo.png">
+    </div>
+    
+    <script>
+        async function getRandomAyah() {
+            const response = await fetch('quran.json');
+            const quran = await response.json();
+            
+            // اختيار عشوائي لرقم السورة والآية الأولى
+            let suraIndex = Math.floor(Math.random() * quran.length);
+            let sura = quran[suraIndex];
+
+            if (!sura || !sura.array_verses || sura.array_verses[0].length < 10) {
+                throw new Error('Invalid sura data or not enough verses.');
+            }
+
+            let startAyahIndex = Math.floor(Math.random() * (sura.array_verses[0].length - 10));
+            let selectedAyat = [];
+            let totalWords = 0;
+
+            for (let i = startAyahIndex; i < startAyahIndex + 12; i++) {
+                if (sura.array_verses[0][i]) {
+                    let ayah = sura.array_verses[0][i];
+                    let ayahText = ` ${ayah.ar} `;
+                    selectedAyat.push(ayahText);
+                    totalWords += ayah.ar.split(' ').length; // حساب عدد الكلمات
+                    if (totalWords > 200) {
+                        selectedAyat.pop(); // إزالة الآية الأخيرة التي تجاوزت الكلمات المطلوبة
+                        break;
+                    }
+                }
+            }
+
+            // تنسيق الآيات بالفصل بينها وإضافة رقم الآية والرمز المطلوب
+            let ayat = selectedAyat.map((ayah, index) => ` ${ayah} (${startAyahIndex + index + 1})`);
+
+            // إعادة البيانات المطلوبة
+            return {
+                sura: sura.name,
+                page: sura.page,
+                juzz: sura.juzz,
+                words: sura.number_words,
+                letters: sura.number_letters,
+                ayat: ayat.join(' ') // تأكد من أن الآيات يتم جمعها بشكل صحيح
+            };
+        }
+
+        async function updateContent() {
+            try {
+                let ayah = await getRandomAyah();
+                document.getElementById('ayah_text').innerHTML = `﴿  ${ayah.ayat} ﴾`;
+                document.getElementById('sura_text').innerHTML = `سورة ${ayah.sura}`;
+            } catch (error) {
+                console.error('Error fetching random ayah:', error);
+                document.getElementById('ayah_text').innerHTML = 'Error loading ayah.';
+                document.getElementById('sura_text').innerHTML = '';
+            }
+        }
+
+        window.onload = updateContent;
+    </script>
+</body>
+</html>

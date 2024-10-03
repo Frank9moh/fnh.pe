@@ -1,0 +1,522 @@
+studiert!studieren!studierst!!2
+kauft ! kocht ! schmeckt!!3
+spricht!sprechen!sprichst!!3
+ist!seid!sind!!3
+seid!kommen!wohnt!!1
+sind!ist!seid!!1
+spricht!sprecht!sprechen!!1
+hat!haben!habt!!1
+nehmt!nimmt!nehmen!!2
+sehen!sieht!seht!!1
+schläft!schlaft!schlafen!!1
+trifft!trefft!treffen!!1
+schreiben ! schreibt ! geschrieben!!3
+sind ! waren ! haben!!1
+ist!hat!hatte!!2
+fahren!gefahren!fährt!!2
+war ! hatte ! hattet!!1
+war ! ist ! hatte!!3
+Seit wann!Wann!Wo!!1
+Seit wann!Wann!Wo!!2
+Seit wann!Für wie lange! Wann!!2
+einem ! einen ! einer!!1
+einen ! eine ! drei!!3
+seit!vor!auf!!2
+seit!vor!auf!!1
+kein!keine!nicht!!2
+kein!keine!nicht!!1
+kein ! keine ! nicht!!3
+Um ! Im ! Am!!1
+Am!Im!Um!!2
+Am!Im!Um!!1
+Am!Im!In den!!3
+bis!am!um!!1
+In der ! In den ! Am!!1
+Ja ! Nein ! Doch!!1
+Ja!Nein!Doch!!2
+Doch!Ja!Nein!!1
+Ja!Nein!Doch!!2
+Geh!Geht!Gehen!!3
+Ruf!Ruft!Rufen!!2
+Sprich!Sprecht!Sprechen!!1
+sollt ! sollen ! soll!!3
+spazierengeht ! spazierengegangen ! spazierengehen!!3
+ muss ! darf ! soll!!1
+ Darf ! Dürfen ! Möchtet!!1
+ kann ! können ! will!!2
+ will ! willst ! wollen!!3
+möchten ! möchtest ! möchte!!3
+dein ! sein ! ihr!!1
+unsere ! euer ! ihr!!2
+Ihre ! Ihr ! deine!!2
+Ihre ! Seine ! Deine!!2
+Seine ! Ihre ! Deine!!2
+ Seine ! Ihr ! Meine !!3
+ seine ! unsere ! eure!!2
+ Wie ! Wo ! Was!!1
+ dem ! den ! der!!1
+mit ! mit der ! mit dem!!2
+mit ! nach ! zu!!3
+den! der! das !!1
+der! den! das!!3
+die ! den ! das!!1
+Wo !Wohin ! Was !!1
+ vor ! zu ! über !!1
+ vor ! unter ! über!!3
+  zwischen ! in ! nach !!2
+  zwischen ! in ! unter!!3
+  hinter ! über ! zwischen!!1
+  an ! um ! auf!!1
+  über der ! zwischen den! auf dem!!3
+  nach!zur!in!!2
+   zu ! nach ! in !!1
+ im ! zum ! beim !!3
+  nach ! zu ! in !!1
+  bei der!in die!nach!!2
+  zur ! ins ! im!!2
+im ! in den ! in die!!2
+ in der ! mit der !zu der !!1
+ Woher ! Wo ! Wohin!!3
+ zu! bei! in!!1
+ins! in den! in!!2
+nach ! zu ! in!!3
+fahrt ! fahren ! fährt!!3
+ein ! ab ! an!!2
+hat ! ist ! sind!!2
+In ! Vor ! Bis!!1
+Bis!Ab!Vor!!3
+Beim ! Zum ! Im!!1
+Bis!Um!Im!!1
+Seit wann !Wann ! Wie lange!!2
+Ab ! Bei ! Seit!!1
+repariere ! reparieren ! reparierst!!2
+Würdest ! Würden ! Wird!!1
+aus ! zu ! auf!!2
+anmachen ! zumachen ! ausmachen!!1
+Mag!Mögt!Mögen!!1
+mögen ! mögt ! magst!!1
+Der ! Den ! Das!!2
+Der ! Den ! Das!!3
+Die ! Der ! Das!!1
+besser!mehr!lieber!!3
+gut ! besser ! besten!!2
+viel ! mehr ! meisten!!3
+besser ! lieber ! mehr!!1
+Diese ! Diesen !Dieser!!3
+Dieses!Dieser!Diese!!2
+Diese ! Dieser ! Dieses!!1
+Welche ! Welchen ! Welcher!!2
+mir!mich!dir!!1
+sie ! mich ! ihr!!3
+euch ! Ihnen ! ihnen!!3
+ihr ! ihm ! euch!!2
+er ! dir ! sie!!2
+Ihnen!dir!euch!!1
+Wo!Wohin!Woher!!1
+Werdet ! Könntest! Würden!!3
+bei der!in die!nach!!2
+dürfen!müssen!möchten!!1
+Ab!Bis!Seit!!2
+mein!meinen!meine!!2
+Dieser! Diese!Dieses!!3
+viel!mehr!meisten!!2
+ ich!mich!mir!!3
+ Sein!Seine! Seinen!!2
+ am!im! über!!2
+ Bis!Ab!Vor!!3
+ Könntest! Werdet! Würden!!3
+ Den! Der!Die!!2
+ sie ! mich ! ihr!!3
+ gut ! besser ! besten!!2
+ Welcher!Welches!Welche!!2
+ Sein ! Ihr ! Mein!!3
+ neben ! unter ! über!!1
+ Würden ! Sind ! Haben!!2
+ Welcher ! Welche ! Welchen!!1
+ der ! den ! dem!!3
+ Bis ! Ab ! In!!1
+ mich ! dich ! mir!!3
+ Wie ! Wo ! Wohin!!3
+ lieber ! mehr !viel!!1
+ Welches ! Welche ! Welcher!!3
+ vor ! über ! unter!!2
+ ihr ! ihm ! euch!!2
+ dem ! der ! den!!1
+ besser ! besten ! gut!!1
+ eure ! euer ! euren!!2
+Bis ! Um ! Bei!!3
+sollt ! sollen ! soll!!3
+aus ! zu ! auf!!2
+Wohin ! Woher ! Wo!!1
+spazierengeht !spazieregegangen ! spazierengehen!!3
+der ! dem ! das!!2
+Ihr ! Seine ! Ihre!!3
+Von ! Nach ! In!!2
+anmachen ! zumachen ! ausmachen!!1
+Diese ! Dieses ! Dieser!!1
+viel ! mehr ! meisten!!3
+euch ! ihnen ! Ihnen!!2
+Passt ! Kaufst ! Brauchst!!1
+Seine ! Ihre ! Meine!!2
+dir ! du ! dich!!1
+Welcher ! Welche ! Welchen!!3
+in ! im ! zwischen!!3
+Seit wann ! Wann ! Wie lange!!2
+die ! dem ! der!!2
+an ! aus ! ab!!1
+ würde ! würdet ! würden!!3
+ sollst ! will ! darfst!!1
+ besten ! liebsten ! meisten!!2
+ Beim ! Zur ! Im!!1
+ der ! den ! dem!!3
+ in! nach! zu!!3
+lieber! besser ! mehr!!2
+sein! sind! seid!!1
+vor! zu! in!!3
+Dieses ! Dieser ! Diese!!2
+Bei ! Bis ! Nach!!2
+seiner ! seinen !seinem!!2
+ihm ! ihn ! er!!1
+mehr ! lieber ! besser!!2
+Wo ! Wohin ! Woher!!2
+Der ! Den ! Die!!1
+Nach ! In die ! Zu!!1
+Seine! Sein ! Ihre!!1
+ein ! einem ! einen!!2
+Ihr ! Ihre ! Ihren!!1
+soll ! sollt ! sollen!!1
+das ! den ! dem!!3
+mit der !bei der ! nach der!!3
+mir ! ihm ! dir!!2
+mehr ! lieber ! am besten!!2
+Welcher ! Welchen ! Welchem!!2
+in ! im ! in der!!2
+Ihr ! Dein ! Ihrer!!1
+vor ! seit ! in!!1
+lieber ! liebsten ! viel!!2
+gebe ! gibt ! geben!!3
+die ! den ! das!!1
+Wo ! Woher ! Wohin!!1
+euch ! Ihnen ! ihnen!!3
+Diese ! Diesen ! Dieser!!1
+mag ! magst ! mögen!!1
+mein ! meine ! meinen!!3
+soll ! sollst ! sollt!!1
+in die ! ins! im!!2
+auf ! vor ! über!!2
+der ! den ! dem!!3
+Welcher ! Welchen ! Welchem!!2
+ mich ! dich ! mir!!3
+ Wo ! Wie ! Wohin!!3
+besser ! lieber ! mehr!!1
+nach!zur!in!!2
+besser!mehr!lieber!!3
+geht!gehen!gegangen!!1
+Dürft!Darfst!Darf!!3
+Bis!Um!Im!!1
+dieser!dieses!diesen!!3
+Mag!Mögt!Mögen!!1
+hat!ist!sind!!2
+Um!Vor!Bis!!2
+Der!Das!Den!!3
+mir!mich!dir!!1
+Können!Möchten!Dürfen!!2
+lieber!liebsten!viel!!2
+Dieses!Dieser!Diese!!1
+mag!magst!mögen!!1
+ist!hat!hatte!!2
+willst ! will ! wollen !!2
+schreiben ! schreibt ! geschrieben!!3
+Wann ! Wo ! Seit wann!!3
+Seit ! Vor ! Im!!2
+hatten ! wart ! waren!!3
+einen ! eine ! ein !!1
+In ! Vor ! Bis!!1
+gefällt ! gefallen ! gehört!!2
+mögen ! mag ! magst!!2
+Wie lange ! Wann !Wo!!1
+repariere ! reparieren ! reparierst!!2
+Bei ! Vor der ! Nach dem!!3
+Würden ! Würdet ! Würde!!1
+Diese ! Diesen ! Dieser !!3
+Welchem ! Welchen ! Welcher!!2
+mag ! magst ! mögen!!1
+ Sein ! Ihr ! Mein !!2
+ dein ! deine ! deinen !!3
+  muss ! sollst ! willst !!2
+ über ! auf! neben !!3
+  zwischen ! in ! nach !!2
+   im ! zum ! beim !!3
+    nach ! zu ! in !!1
+    Wie ! Wo ! Wohin !!2
+    Wann ! Wo ! Wohin !!3
+   bei ! ab ! in !!3
+   Seine ! Ihr ! Meine!!3
+   darfst ! musst ! sollst!!1
+   Bis ! Bei! Nach!!1
+   der ! den ! dem!!3
+   Könnten ! Müssen ! Sollen!!1
+  Mach ! Machst ! Machen!!1
+  vor ! zu ! über!!1
+  Wie ! Wo ! Wohin!!3
+  der ! den ! die!!2
+ hat ! ist ! war!!2
+ gut ! besser ! besten!!2
+war ! ist ! hatte!!3
+einem ! einen !einer!!1
+Darf ! Muss ! Soll!!1
+Sieh ! Siehst ! Sehen!!1
+Sein ! Seine ! Ihr!!2
+muss ! darf ! soll !!1
+kein ! keinen ! nicht!!2
+Um ! Am ! Im!!1
+aufgemacht! aufmacht ! aufmachen!!3
+Wo ! Was ! Wohin!!1
+Wo ! Was ! Wohin!!3
+für ! nach ! vor!!1
+sei ! seien !seid!!3
+Darf ! Muss ! Soll!!1
+Ihre ! Ihr ! Deine!!2
+war ! hatte ! hattet!!1
+zu ! nach ! in!!1
+spricht ! sprechen ! gesprochen!!2
+Wo ! Woher ! Wohin!!1
+der ! die ! der!!3
+sind ! waren ! haben!!1
+sollst ! soll ! sollen!!1
+Ihre ! Seine ! Deine!!2
+hinter ! zwischen ! über!!1
+Könntest ! Werdet ! Würden!!3
+Den ! Der ! Die!!2
+Wie lange ! Wann ! Wo!!2
+In die ! In der ! Im!!1
+gut ! besser ! besten!!2
+besser ! mehr ! lieber!!3
+nach ! zu ! in!!1
+Wie ! Wo ! Wohin!!2
+Sind ! Haben ! Würden!!3
+bei ! in ! ab!!2
+bis ! ab ! nach!!3
+Wann ! Seit wann ! Wie lange!!3
+dieses ! dieser ! diese!!1
+sollt ! sollen ! soll!!3
+auf die ! in der ! zu der!!2
+vor ! seit ! am!!2
+sollt ! könnt ! musst!!1
+dein ! euren ! eure!!3
+er ! dir ! sie!!2
+Würdest ! Würden ! Wird!!1
+mit ! nach ! zu!!3
+Den ! Der ! Die!!3
+Wie ! Wo ! Wohin!!3
+besser ! mehr ! lieber!!3
+geht ! gehen ! gegangen!!1
+seine ! meinen ! ihr!!1
+Um ! Am ! Nach!!3
+auf ! in ! um!!3
+dieser ! dieses ! diesen!!3
+magst ! mag ! mögen!!2
+ Der ! Das ! Den!!2
+ Wie lange ! Wann ! Wo!!2
+  Sein ! Ihr ! Mein !!2
+ darfst ! musst ! sollst !!1
+  zwischen ! in ! nach !!2
+  Wie ! Wo ! Wohin !!3
+   bis ! ab ! in !!3
+   Sind ! Haben ! Könnten !!3
+   Diesen ! Dieses ! Diese!!1
+   meinen ! meiner ! meinem!!3
+   Seine ! Ihr ! Meine !!3
+    muss ! sollst ! willst !!2
+    Bei !Bis ! Nach!!2
+     der ! den ! dem!!3
+     Könnten ! Müssen ! Sollen!!1
+     Mach ! Machst ! Machen!!1
+     Wann ! Wo !Wohin !!3
+     besser ! lieber ! mehr !!2
+ mir ! ihn ! mich !!1
+ nach ! zu ! in !!1
+ einem ! einen ! einer!!1
+ Darf ! Muss ! Soll!!1
+ Ab ! Bis ! Um!!2
+spricht ! sprechen ! gesprochen!!2
+ muss ! darf ! soll !!1
+ aufgemacht ! aufmachen ! aufmacht!!2
+ Wo ! Wohin ! Was!!1
+ ich ! mich ! mir!!3
+ für ! nach ! vor !!1
+Darf ! Musst ! Sollen!!1
+zur ! in die ! nach!!2
+Ihre ! Ihr ! Deine!!2
+Der ! Den ! Das!!2
+ in der ! mit der !zu der !!1
+ Wo ! Woher ! Wohin!!1
+ der ! dem ! die!!1
+ Sein ! Ihr !Mein!!1
+ Diese ! Diesen ! Dieses !!2
+ sollt ! sollen ! soll!!3
+ könnte! könntest ! könntet!!2
+ mich ! mir ! ich!!2
+ im ! zum ! beim!!3
+ besser ! lieber ! mehr!!1
+ Wie! Wo ! Wohin!!3
+ Wann ! Wo ! Wie lange!!3
+ dein ! sein! Ihr!!3
+ Welche ! Welchen ! Welches!!3
+ muss ! müsst ! müssen!!1
+ im ! zum ! beim!!2
+ besser ! besten ! gut!!2
+ aufmachen ! aufgemacht ! aufmacht!!1
+ ab ! vor ! seit!!3
+  Den ! Der ! Die !!2
+  Sein ! Seine ! Seinen !!1
+   am ! im ! über !!2
+    bis! ab ! nach !!3
+    Könntest ! Werdet ! Würden !!3
+    Den ! Der ! Die !!3
+    sie ! ihr ! wir !!2
+    Welcher ! Welches ! Welche !!2
+    bei der ! in die ! nach!!2
+   mein ! meinen! meine!!2
+   kauft ! kocht ! schmeckt !!3
+   Sein ! Ihr ! Mein!!3
+   neben ! im ! zwischen!!1
+   Würden ! Sind ! Haben!!1
+   Welcher ! Welche ! Welchen!!1
+   der ! den ! dem!!3
+   Bis ! Ab ! In!!1
+   mich ! dich ! mir !!3
+   Wie ! Wo ! Wohin!!3
+   lieber ! mehr ! besser!!1
+   seit ! vor ! ab!!1
+   Wo ! Wann ! Wohin!!1
+   Darf ! Muss ! Haben!!1
+   Welcher ! Welche ! Welchen!!3
+    deine ! Ihre ! meinen !!2
+     auf der ! im ! am !!3
+     in ! ab ! bis!!3
+     sollt ! sollen ! soll !!2
+      zur !in die! nach !!2
+      unser ! eure ! euer!!2
+sprechen ! spricht ! gesprochen!!1
+der ! dem ! den!!2
+über ! zwischen ! auf!!3
+Beim ! Zum ! Im!!1
+ausmachen ! zumachen ! anmachen!!1
+Welche ! Welcher ! Welches!!3
+gern ! lieber ! liebsten!!3
+ihr ! ihnen ! ihm!!1
+mag ! mögt ! mögen!!1
+dein ! Ihre ! deine!!2
+sollen ! soll ! sollt!!1
+den ! dem ! der!!3
+Wohin ! Wo ! Woher!!1
+Ab ! Bei ! Seit!!1
+ausmachen ! zumachen ! anmachen!!3
+Diesen ! Diese ! Dieses!!1
+besten ! liebsten ! mehr!!2
+ihr ! mir ! euch!!2
+zwischen ! auf ! über!!1
+Ihre ! seine ! sein!!2
+kann ! soll ! will!!2
+für ! seit ! vor!!2
+auf ! an ! zu!!1
+in die ! in der ! zum!!1
+Welche ! Welchen ! Welcher!!3
+euch ! ihnen ! uns!!3
+Sein ! Ihr ! Ihre!!2
+nach !zur ! in!!1
+der ! dem ! das!!1
+Wie lange ! Ab wann ! Wann!!3
+mag ! mögen ! mögt!!2
+besser ! lieber ! mehr!!1
+du ! dich ! dir!!3
+In der ! Nach ! In die!!3
+Ihr ! Ihre ! Sein!!1
+ meiner ! meinen ! meinem!!3
+ Der ! Die ! Den!!3
+ Ab ! Bis ! In!!2
+ dir ! mich ! mir!!3
+ Welches ! Welcher ! Welchen!!1
+ deine ! seine ! Ihre!!3
+dem ! den ! der!!1
+soll ! sollst ! sollen!!2
+vor ! seit! bis!!1
+einer ! einem ! ein!!1
+Die ! Den ! Der!!2
+uns ! euch ! ihnen!!1
+besser ! lieber! mehr!!1
+Dieser ! Dieses ! Diese!!3
+seine ! unsere ! eure!!2
+Wie ! Wo ! Was!!1
+In der ! Bei der ! Zur!!3
+Seit ! Ab ! In!!2
+ihr ! ihm ! sie!!1
+mehr ! lieber ! besser!!1
+Welcher ! Welches ! Welchen!!3
+aufmachen ! aufgemacht ! mach auf!!1
+magst ! mögen ! mag!!3
+er ! ihn ! es!!3
+A) Du sollst zum Arzt gehen. !B) Du sollst Fußball spielen. !C) Du sollst nicht viel Kaffee trinken.!!1
+A) Wo wohnst du ?! B) Was hast du ? !C) Wie sieht dein Auge aus ?!!2
+A) Geh doch zum Arzt.! B) Sei ruhig.! C) Geh spazieren.!!1
+A) Dein Freund ist krank.! B) Dein Freund hat Prüfung. ! C) Dein Freund ist glücklich.!!1
+A) Ich brauche bitte einen Termin am Donnerstag. ! B) Ich kann leider nicht kommen.! C) Ich muss den Termin absagen.!!1
+A) Wie findest du Lach-Yoga?! B) Wie viel kostet ein Lachseminar?! C) Wann beginnt das nächste Seminar?!!1
+A) Ich komme heute vorbei.!B) Ich kann heute leider nicht kommen.! C) Jeden Tag habe ich frei.!!2
+A) absagen. !B)vereinbaren.! C)ändern.!!2
+A) Mein Bruder ist krank.! B) Mein Arm tut sehr weh.! C) Mein Vater hat Fieber.!!2
+A) Was hilft gegen Kopfschmerzen? !B) Ist der Arzt krank? !C) Studiert dein Bruder an der Universität?!!1
+A) Ich möchte meinen Termin absagen.! B) Ich möchte einen Termin vereinbaren.! C) Ich möchte meinen Termin auf Donnerstag verschieben.!!3
+dick!jung!dunn!!1
+A) Befinden. !B) Verkehrsmittel.! C) Fahrplan!!2
+A) Eine Frau fragt dich nach deinem Alter.! B) Eine Frau sucht eine Bank.! C) Eine Frau bittet dich um Geld.!!2
+A) Er ist hier um die Ecke.! B) Sie ist da vorne. !C) Es ist da drüben.!!1
+A) Du bist im Supermarkt.! B) Du bist beim Arzt. !C) Du bist im Bahnhof.!!3
+A) Was ist das auf Deutsch?! B) Wann hast du Zeit? ! C) Bitte, wo ist hier der Eingang?!!3
+A) Du bist im Flughafen. !B) Du bist auf dem Bahnhof. !  C) Du fliegst nicht gern mit dem Flugzeug.!!1
+A) Entschuldigung, gibt es hier ein Hotel? !B)Ich suche eine Wohnung. !C) Mein Freund bleibt gern im Hotel.!!1
+A) Geh zur Apotheke! B) Da ist eine Bäckerei.! C) Geh zum Optiker.!!3
+A) Haben Sie einen Computer? !B) Wann kaufst du einen Computer? !C) Können Sie einen Techniker schicken?!!3
+A) Es ist heiß. !B) Es ist kalt.! C) Es ist sehr dunkel.!!2
+A) Ich komme heute vorbei.! B) Ich kann heute leider nicht kommen.! C) Jeden Tag habe ich frei.!!2
+A) Es ist hell.! B) Es ist dunkel.! c) Es ist heiß.!!2
+A) es ist kalt. ! B) es ist sehr hell.  ! C) es ist heiß!!3
+A) es ist kalt.! B) es ist dunkel.! C) es ist heiß.!!1
+A) kaputt. ! B)neu.! C)teuer.!!1
+A) Du willst ein Flugticket reservieren. ! B) Du willst nicht reisen.! C) Du willst nach Hause gehen.!!1
+A) Vor dem Kino. !B) In einer Stunde.! C)Es ist drei Uhr.!!2
+A) Die finde ich super. !B) Schön Das gefällt mir. !C) Den finde ich toll.!!2
+A) In Schwarz !B) In Größe 12. !C) Im Obergeschoss!!3
+A) Wie findest du den Rock? !B) Haben Sie den Rock in Größe 52? !C) Wo kann ich das bezahlen?!!2
+A) Gehört dir die Jacke? !B) Nimmst du die Jacke? !C) Hast du eine Jacke?!!2
+A) Wo ist die Kasse?! B) Gefällt dir diese Jeans?! C) Wie findest du meine Jeans?!!1
+A) Wo finde ich Damenkleidung? !B) Wo darf ich parken?  !C) Wo finde ich Sportkleidung?!!1
+A) das Datum. !B) den Preis !C) die Größe.!!3
+A) Haben Sie eine in Größe 40? !B)Haben Sie eine in Rot? !C) Was kostet sie?!!1
+A) Ja, aber er spielt lieber Geige.! B) Nein, Alis Bruder hat ein Fahrrad.! C) Nein, das Fahrrad ist neu.!!1
+A) der Medizin !B) dem Arzt !C) der Krankheit!!1
+A) Das Handy ist weg. !B) Das Handy funktioniert nicht. !C) Du brauchst das Handy nicht.!!1
+A) dem Fahrziel! B) der Dauer !C) der Fahrkarte!!1
+A) Arzt!B) Masseur !C) Reparaturservice!!3
+A) Den finde ich schick.! B) Sie ist modern. !C) Es passt mir genau.!!1
+A) Wie findest du die Massage?! B) Wie geht es dir? !C) Was machst du gern?!!2
+A) Wie ist die Party?! B) Wann fängt die Party an? !C) Wo ist die Party?!!2
+A) Wo arbeitest du? !B) Was brauchst du für den Beruf?! C) Was sind Sie von Beruf?!!2
+A) Wie lange lernst du schon Deutsch? !B) Wo warst du gestern? !C) Wann machst du die Hausaufgaben?!!1
+A) Was machst du beruflich?! B) Was ist dein Vater von Beruf?! C) Was studierst du?!!1
+A) Wie viel möchtest du?! B) Was brauchst du? !C) Wie viel kostet das?!!3
+A) Kann ich dem kranken Kind helfen? !B) Können Sie mir bitte helfen? !C) Hast du ihr geholfen?!!2
+A) Ja, gern.! B) Wie bitte?! C) Danke, gut.!!2
+A) Ich will einen Karatekurs machen. !B) Ich muss einkaufen gehen. !C) Ich darf hier sitzen.!!1
+A) Neben der Bank. !B) Von 9 bis 14 Uhr. !C) Es ist 3 Uhr.!!2
+A) Für zwei Monaten.! B) Im August.! C) Seit einem Jahr.!!2
+A) Was ist dein Vater von Beruf?! B) Wo arbeitet dein Vater? !C) Was macht deine Mutter?!!1
+A) der Herkunft.! B) der Zeit.! C) dem Hobby.!!3
+A) Haben Sie eine Frage? !B) Darf ich eine Frage stellen? !C) Wie bitte?!!2
+A) dem Wetter !B) dem Preis ! C) der Zeit!!2
+A) Wo regnet es ? !B) Wie alt bist du ? !C) Wie viel Grad sind es in München?!!3
+A) Der Winter ist so kalt.! B)Der Sommer ist sehr heiß.! C) Der Herbst beginnt schon.!!1
+A) der Urlaubszeit !B) dem Urlaubsort !C) dem Lieblingshobby.!!2
+A) Heute ist Freitag.! B) Heute ist der erste Mai.! C) Heute ist der Muttertag.!!2
+A) Peter hat bald eine Prüfung.! B) Peter hat Geburtstag. !C) Peter ist krank.!!1

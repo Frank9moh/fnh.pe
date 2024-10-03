@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<!-- تضمين Font Awesome CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<!-- تضمين Animate.css -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+<!-- تضمين SweetAlert2 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+<!-- تضمين jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+ #notification {
+            position: fixed;
+            top: -100px; /* ابدأ خارج الشاشة */
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 0, 0, 0.7); /* لون أحمر باهت وشبه شفاف */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            animation: slideDown 1s forwards, fadeOut 1s forwards 5s; /* تأثير النزول والتلاشي */
+        }
+        #notification h1 {
+            font-size: 50px;
+            color: white; /* لون القلب أبيض ليظهر بوضوح على الخلفية الحمراء */
+            margin: 0;
+            margin-right: 10px;
+        }
+        #notification p {
+            font-size: 20px;
+            margin: 0;
+            color: white; /* لون النص أبيض ليظهر بوضوح على الخلفية الحمراء */
+        }
+        #notification a {
+            color: yellow; /* لون الرابط أصفر ليكون بارزاً */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        @keyframes slideDown {
+            from { top: -100px; opacity: 0; } /* ابدأ خارج الشاشة */
+            to { top: 20px; opacity: 1; } /* انزل إلى داخل الشاشة */
+        }
+        @keyframes fadeOut {
+            0% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+</style>
+<style>
+
+
+        .card {
+            width: 300px;
+            height: 50px;
+            perspective: 1000px;
+        }
+
+        .card-inner {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            transform-origin: center;
+        }
+
+        .card:hover .card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            padding: 20px;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        .card-face.front {
+            background: #fff;
+            color: #333;
+        }
+
+        .card-face.back {
+            background: #4CAF50;
+            color: #fff;
+            transform: rotateY(180deg);
+          padding-top: 16px;
+        }
+
+        .copyable {
+            background: #2e2e2e; /* خلفية داكنة */
+            color: #f5f5f5; /* نص فاتح */
+            border: 1px solid #444; /* حواف واضحة */
+            hight:30px;
+            border-radius: 4px;
+            padding: 2px;
+            font-family: 'Courier New', Courier, monospace; /* خط يشبه الكود */
+            cursor: pointer;
+            user-select: text;
+            box-shadow: 0 0 5px rgba(0,0,0,0.3); /* تأثير ظل لإبراز العنصر */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src="images/img-01.png" alt="IMG">
+				</div>
+
+				<form class="login100-form validate-form" method="post">
+					<span class="login100-form-title">
+						Login
+					</span>
+
+				
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input class="input100" type="password" name="password" placeholder="Password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
+
+					<div class="text-center p-t-12">
+					     <div class="card" onclick="copyText()">
+        <div class="card-inner">
+            <div class="card-face front">
+               Don't have a  Password? 	 <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+            </div>
+            <div class="card-face back">
+              Your password is &nbsp;&nbsp;<span class="copyable" onclick="copyToClipboard(event)">UlraFNH</span>
+            </div>
+        </div>
+    </div>
+
+					</div>
+
+					
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+
+<!-- تضمين SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+        window.onload = function() {
+            var notification = document.createElement('div');
+            notification.id = 'notification';
+
+            // تحديد ملف JSON المناسب بناءً على الوقت
+            var currentTime = new Date().toLocaleString('en-US', {timeZone: 'Africa/Cairo', hour12: false}).split(',')[1].split(':')[0]; // الحصول على الساعة الحالية في القاهرة
+            var zekrFile;
+            if (currentTime < 12) {
+                zekrFile = 's.json';
+            } else {
+                zekrFile = 'm.json';
+            }
+
+            // تحميل ملف JSON واستخدام الذكر العشوائي
+            fetch(zekrFile)
+                .then(response => response.json())
+                .then(data => {
+                    var randomZekrIndex = Math.floor(Math.random() * data.content.length);
+                    var randomZekr = data.content[randomZekrIndex].zekr;
+
+                    notification.innerHTML = `
+                        <h1>😊</h1>
+                        <p>${randomZekr}</p>
+                    `;
+                    document.body.appendChild(notification);
+
+                    setTimeout(function() {
+                        notification.style.display = 'none';
+                    }, 7000); // 5 ثوانٍ
+                });
+        };
+    </script>
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	
+	    <script>
+        function copyText() {
+            // لا حاجة لهذه الدالة بعد إضافة دالة النسخ على الجزء المحدد.
+        }
+
+        function copyToClipboard(event) {
+            // منع الحدث من الانتشار إلى البطاقة
+            event.stopPropagation();
+
+            // الحصول على النص المطلوب نسخه
+            const text = event.target.textContent;
+
+            // إنشاء عنصر نصي غير مرئي لتسهيل النسخ
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+
+            alert('The password has been copied to the clipboard !');
+        }
+    </script>
+	
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+		
+		
+		
+		document.addEventListener("DOMContentLoaded", function() {
+    var button = document.querySelector('.login100-form-btn');
+
+    button.addEventListener('click', function() {
+        button.classList.add('bounce'); // إضافة تأثير الكرة المطاطية
+        setTimeout(function() {
+            button.classList.remove('bounce'); // إزالة تأثير الكرة المطاطية بعد فترة زمنية قصيرة
+        }, 800); // تعديل وقت الانتقال وفقاً لتحديد المدة في الـ CSS
+    });
+});
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>

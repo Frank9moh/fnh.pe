@@ -1,0 +1,143 @@
+<?php
+// دالة لجلب محتوى الصفحة باستخدام cURL
+function fetchContent($url) {
+    $ch = curl_init();
+
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0");
+
+    $response = curl_exec($ch);
+
+    if (curl_errno($ch)) {
+        return false; // إذا حدث خطأ، إرجاع false
+    }
+
+    curl_close($ch);
+    return $response;
+}
+
+// دالة لاستخراج العنوان من HTML
+function getTitleFromHtml($html) {
+    $dom = new DOMDocument();
+    @$dom->loadHTML($html);
+    $title = $dom->getElementsByTagName('title');
+    if ($title->length > 0) {
+        return $title->item(0)->textContent;
+    }
+    return null;
+}
+
+// دالة لاستخراج المحتوى من HTML
+function getContentFromHtml($html) {
+    $dom = new DOMDocument();
+    @$dom->loadHTML($html);
+    $xpath = new DOMXPath($dom);
+    $paragraphs = $xpath->query('//div[contains(@class, "paragraph-list")]');
+    $content = '';
+    if ($paragraphs->length > 0) {
+        foreach ($paragraphs->item(0)->getElementsByTagName('p') as $p) {
+            $content .= $p->textContent . "\n";
+        }
+    }
+    return $content ?: 'لم يتم العثور على المحتوى.';
+}
+
+// قراءة ملف JSON
+$json_data = file_get_contents('unique_novels.json');
+$novels = json_decode($json_data, true);
+
+// المتغيرات لتخزين البيانات
+$novel_index = isset($_GET['novel_index']) ? intval($_GET['novel_index']) : 1;
+$novel_data = [
+    'title' => 'لم يتم العثور على العنوان',
+    'image' => '',
+    'content' => 'لم يتم العثور على المحتوى.',
+    'error' => ''
+];
+
+// البحث عن الرواية بناءً على الفهرس
+if (isset($novels[$novel_index - 1])) {
+    $novel = $novels[$novel_index - 1];
+    $novel_link = $novel['link'];
+
+    // جلب محتوى الصفحة
+    $html_content = fetchContent($novel_link);
+
+    if ($html_content !== false) {
+        $title = getTitleFromHtml($html_content);
+        $content = getContentFromHtml($html_content);
+
+        $novel_data['title'] = $title ?: $novel['title'];
+        $novel_data['image'] = $novel['image'];
+        $novel_data['content'] = $content;
+    } else {
+        $novel_data['error'] = 'فشل في جلب الصفحة.';
+    }
+} else {
+    $novel_data['error'] = 'لم يتم العثور على الرواية.';
+}
+?>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عرض الرواية</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+        }
+        .novel-container {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .novel-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .novel-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .novel-content {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .copyright {
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="novel-container">
+            <?php if ($novel_data['error']): ?>
+                <div class="alert alert-danger" role="alert">
+                    <?= htmlspecialchars($novel_data['error']) ?>
+                </div>
+            <?php else: ?>
+                <?php if ($novel_data['image']): ?>
+                    <img src="<?= htmlspecialchars($novel_data['image']) ?>" alt="صورة الرواية" class="novel-image">
+                <?php else: ?>
+                    <div class="novel-image">لم يتم العثور على صورة.</div>
+                <?php endif; ?>
+                <div class="novel-title"><?= htmlspecialchars($novel_data['title']) ?></div>
+                <div class="novel-content"><?= nl2br(htmlspecialchars($novel_data['content'])) ?></div>
+                <div class="copyright">
+                    © جميع الحقوق محفوظة.
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</body>
+</html>

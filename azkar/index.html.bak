@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مُــرتَقـَــــون | إبني جنتك</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Amiri', serif;
+            background-color: #222; /* لون خلفية الصفحة الداكن */
+            color: #fff; /* لون النصوص */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100vw; /* Full viewport width */
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: #333; /* لون خلفية المحتوى */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            text-align: right;
+            direction: rtl;
+            width: 100%;
+            box-sizing: border-box;
+            margin: auto; /* لتوسيط العناصر داخل الصفحة */
+        }
+
+        h1 {
+            color: #ff9800;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .card {
+            background-color: #444; /* لون خلفية البطاقات */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #fff; /* لون عنوان البطاقة */
+        }
+
+        .card p {
+            margin-bottom: 0;
+            font-size: 1.2rem;
+            color: #ccc; /* لون نص البطاقة */
+        }
+
+        .footer {
+            text-align: center;
+            color: #ccc; /* لون النص في التذييل */
+            font-size: 1.4rem;
+            background-color: #333; /* لون خلفية التذييل */
+            padding: 10px 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: float 3s ease-in-out infinite;
+            width: 50%;
+            max-width: 800px;
+            margin: 20px auto 0; /* لتوسيط التذييل وضمان التباعد من الأعلى */
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>اختر نوع الاذكار 😊</h1>
+        <div class="card" onclick="redirectToPage1()">
+            <h2>أذكار الصباح ☀ </h2>
+            <p>انقر هنا للانتقال إلى صفحة أذكار الصباح </p>
+        </div>
+        <div class="card" onclick="redirectToPage2()">
+            <h2>أذكار المساء 🌙</h2>
+            <p>انقر هنا للانتقال إلى صفحة أذكار المساء </p>
+        </div>
+        
+        
+               <div class="card" onclick="redirectToPage3()">
+            <h2>دعــــاء 🤲 </h2>
+            <p>انقر هنا للانتقال إلى صفحة الأدعية </p>
+        </div> 
+        
+                <div class="card" onclick="redirectToPage4()">
+            <h2>حـــكــــمــة 📜 </h2>
+            <p>انقر هنا للانتقال إلى صفحة الحِكم </p>
+        </div>
+        
+        
+                <div class="card" onclick="redirectToPage5()">
+            <h2>فـــرصــة الــنــجــاة 📒</h2>
+            <p>انقر هنا للانتقال إلى صفحة فرص النجاة </p>
+        </div>
+        <div class="card" onclick="redirectToPage6()">
+            <h2> رســالــة مــن الـقــلــب 📩 </h2>
+            <p>انقر هنا للانتقال إلى صفحة الرسائل</p>
+        </div>
+        <br>
+        <center>
+            <div class="footer">
+                مُــرتَقـَــــون | إبني جنتك
+            </div>
+        </center>
+    </div>
+    <script>
+        function redirectToPage1() {
+            window.location.href = 'صباح.html';
+        }
+
+        function redirectToPage2() {
+            window.location.href = 'مساء.html';
+        }
+        
+       function redirectToPage3() {
+            window.location.href = 'دعاء.php';
+        } 
+        
+        function redirectToPage4() {
+            window.location.href = 'حكمة.php';
+        }
+        
+       function redirectToPage5() {
+            window.location.href = 'فرصة.php';
+        } 
+        function redirectToPage6() {
+            window.location.href = 'رسالة.php';
+        } 
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+    <?php
+    $ms = ["الأول","الثاني","الثالث","الرابع","الخامس","السادس","السابع","الثامن","التاسع","العاشر"];
+    // اقرأ أسئلة من ملف الأسئلة
+    $questions = file('questions.txt', FILE_IGNORE_NEW_LINES);
+
+    // اقرأ الإجابات المقدمة من المستخدم
+    $userAnswers = $_POST['answer'];
+    $startTime = $_POST["start_time"]; // وقت بدء الاختبار
+
+    // اقرأ الإجابات الصحيحة من ملف الإجابات
+    $correctAnswers = file('answers.txt', FILE_IGNORE_NEW_LINES);
+
+    // عدد الأسئلة الصحيحة وغير الصحيحة
+    $correctCount = 0;
+    $incorrectCount = 0;
+
+    // اعرض نتيجة كل سؤال
+    foreach ($userAnswers as $key => $userAnswer) {
+        // Check if the key exists before accessing it
+        if (isset($userAnswers[$key])) {
+            $userAnswer = $userAnswers[$key];
+        } else {
+            $userAnswer = ""; // or any default value
+        }
+
+        $question = $questions[$key];
+        $correctAnswer = explode('!', $correctAnswers[$key]);
+        $correctIndex = intval(array_pop($correctAnswer)) - 1;
+        $endTime = time();
+        $timeTaken = $endTime - $startTime;
+        
+
+        // Check answer correctness
+        if ($userAnswer === $correctAnswer[$correctIndex]) {
+            
+            $correctCount++;
+        } else {
+            
+            $incorrectCount++;
+        }
+
+        
+    }
+
+    // عرض عدد الأسئلة الصحيحة والخاطئة
+    $totalQuestions = count($userAnswers);
+    echo '<div class="alert alert-success text-center" role="alert">عدد الأسئلة الصحيحة: ' . $correctCount . '</div>';
+    echo '<div class="alert alert-warning text-center" role="alert">عدد الأسئلة الخاطئة: ' . $incorrectCount . '</div>';
+    echo '<center><p class="mt-3">زمن الاختبار: ' . gmdate("H:i:s", $timeTaken) . '</p></center>';
+
+    // عرض تنبيه إذا لم يتم الإجابة على جميع الأسئلة
+    if ($totalQuestions != 10) {
+        echo '<div class="alert alert-warning text-center" role="alert">لم تقم بالإجابة على جميع الأسئلة بعد!</div>';
+    } else {
+        echo '<div class="alert alert-success text-center" role="alert">لقد انتهيت من الاختبار، شكرا لك!</div>';
+    }
+    ?>

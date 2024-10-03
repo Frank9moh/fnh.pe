@@ -1,0 +1,92 @@
+document.addEventListener("DOMContentLoaded", function() {
+    loadAzkar();
+});
+
+function loadAzkar() {
+    fetch('azkar.json')
+        .then(response => response.json())
+        .then(data => {
+            const azkar = data.azkar.filter(zekr => zekr.type === "أذكار المساء");
+            const shuffledAzkar = shuffleArray(azkar);
+            const selectedAzkar = shuffledAzkar.slice(0, 5);
+            displayAzkar(selectedAzkar);
+
+            // Add button icon to copy selected azkar
+            const copySelectedAzkarButton = document.createElement('button');
+            copySelectedAzkarButton.innerHTML = '<i class="far fa-copy"></i>';
+            copySelectedAzkarButton.classList.add('copy-button');
+            copySelectedAzkarButton.title = 'نسخ الأذكار المعروضة';
+            copySelectedAzkarButton.addEventListener('click', () => {
+                const selectedAzkarText = generateSelectedAzkarText(selectedAzkar);
+                copyToClipboard(selectedAzkarText);
+            });
+
+            // Add the button to the page
+            const header = document.querySelector('.container h1');
+            header.appendChild(copySelectedAzkarButton);
+        })
+        .catch(error => console.error('Error fetching the azkar:', error));
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+function displayAzkar(azkar) {
+    const container = document.getElementById('azkar-container');
+    container.innerHTML = '';
+
+    azkar.forEach(zekr => {
+        const zekrDiv = document.createElement('div');
+        zekrDiv.classList.add('dhikr');
+
+        const zekrText = document.createElement('p');
+        zekrText.innerHTML = `<pre>${zekr.zekr}</pre>`;
+        zekrDiv.appendChild(zekrText);
+
+        const zekrInfo = document.createElement('p');
+        zekrInfo.classList.add('virtue');
+        zekrInfo.textContent = zekr.zekr_info;
+        zekrDiv.appendChild(zekrInfo);
+
+        container.appendChild(zekrDiv);
+    });
+}
+
+function generateSelectedAzkarText(azkar) {
+    let text = '*أذكار المساء* 🌙 \n\n';
+    azkar.forEach((zekr, index) => {
+        text += `- *الذكر :*\n\n\`\`\`『 ${zekr.zekr} 』\`\`\`\n`;
+
+        // Add فضله only if zekr_info is not empty
+        if (zekr.zekr_info.trim() !== '') {
+            text += `*فضله :*\n☜︎ ${zekr.zekr_info}\n\n`;
+        } else {
+            text += '\n';
+        }
+    });
+    return text;
+}
+
+function copyToClipboard(text) {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+
+    // Ensure it's out of view
+    textarea.style.position = 'fixed';
+    textarea.style.top = '0';
+    textarea.style.left = '0';
+    textarea.style.opacity = '0';
+
+    document.body.appendChild(textarea);
+
+    textarea.focus();
+    textarea.select();
+    document.execCommand('copy');
+
+    document.body.removeChild(textarea);
+}
